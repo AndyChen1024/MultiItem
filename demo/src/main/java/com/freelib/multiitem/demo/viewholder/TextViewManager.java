@@ -1,7 +1,9 @@
 package com.freelib.multiitem.demo.viewholder;
 
-import android.support.annotation.NonNull;
+
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
 
 import com.freelib.multiitem.adapter.holder.BaseViewHolder;
 import com.freelib.multiitem.adapter.holder.BaseViewHolderManager;

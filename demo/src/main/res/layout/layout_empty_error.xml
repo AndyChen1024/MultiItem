@@ -10,7 +10,7 @@
             type="com.freelib.multiitem.demo.state.ItemEmptyAndError"/>
     </data>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
@@ -40,7 +40,7 @@
             app:layout_constraintTop_toBottomOf="@+id/tip_txt"
             tools:text="xin xi"
             />
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </layout>

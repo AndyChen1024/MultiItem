@@ -1,7 +1,8 @@
 package com.freelib.multiitem.item;
 
-import android.databinding.DataBindingUtil;
-import android.databinding.ViewDataBinding;
+
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ViewDataBinding;
 
 import com.freelib.multiitem.adapter.holder.BaseViewHolder;
 import com.freelib.multiitem.adapter.holder.InputHolderManager;

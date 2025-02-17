@@ -1,13 +1,11 @@
 package com.freelib.multiitem.demo;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
-import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import android.widget.RadioGroup;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.freelib.multiitem.adapter.BaseItemAdapter;
 import com.freelib.multiitem.animation.AlphaInAnimation;
@@ -16,12 +14,8 @@ import com.freelib.multiitem.animation.ScaleInAnimation;
 import com.freelib.multiitem.animation.SlideInBottomAnimation;
 import com.freelib.multiitem.animation.SlideInLeftAnimation;
 import com.freelib.multiitem.animation.SlideInRightAnimation;
-import com.freelib.multiitem.demo.bean.ImageBean;
 import com.freelib.multiitem.demo.bean.ImageTextBean;
-import com.freelib.multiitem.demo.bean.TextBean;
 import com.freelib.multiitem.demo.viewholder.ImageAndTextManager;
-import com.freelib.multiitem.demo.viewholder.ImageViewManager;
-import com.freelib.multiitem.demo.viewholder.TextViewManager;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.CheckedChange;

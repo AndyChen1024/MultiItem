@@ -1,9 +1,9 @@
 package com.freelib.multiitem.adapter.holder;
 
-import android.databinding.ViewDataBinding;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
 
+import androidx.annotation.LayoutRes;
+import androidx.annotation.NonNull;
+import androidx.databinding.ViewDataBinding;
 
 /**
  * 数据绑定ViewHolderManager

@@ -1,7 +1,8 @@
 package com.freelib.multiitem.adapter.holder;
 
-import android.support.annotation.NonNull;
 import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
 
 /**
  * ViewHolder鐨勭®＄悊绫伙紝榛樿®ら噰鐢▄@link BaseViewHolder}鐨勫疄鐜°

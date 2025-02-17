@@ -1,8 +1,8 @@
 package com.freelib.multiitem.adapter.holder;
 
-import android.databinding.DataBindingUtil;
-import android.databinding.ViewDataBinding;
 
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ViewDataBinding;
 
 /**
  * 数据绑定ViewHolderManager

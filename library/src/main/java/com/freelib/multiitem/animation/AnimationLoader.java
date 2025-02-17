@@ -1,9 +1,10 @@
 package com.freelib.multiitem.animation;
 
 import android.animation.Animator;
-import android.support.annotation.NonNull;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
+
+import androidx.annotation.NonNull;
 
 import com.freelib.multiitem.adapter.holder.BaseViewHolder;
 

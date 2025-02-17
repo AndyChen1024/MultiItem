@@ -1,8 +1,10 @@
 package com.freelib.multiitem.demo.viewholder;
 
 import android.content.Context;
-import android.databinding.BindingAdapter;
+
 import android.widget.ImageView;
+
+import androidx.databinding.BindingAdapter;
 
 /**
  * 数据绑定工具类

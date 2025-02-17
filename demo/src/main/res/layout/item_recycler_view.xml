@@ -20,7 +20,7 @@
         android:textSize="16dp"
         tools:text="测试标题"/>
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/item_group_recycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

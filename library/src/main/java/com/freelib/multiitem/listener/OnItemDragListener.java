@@ -1,8 +1,10 @@
 package com.freelib.multiitem.listener;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.freelib.multiitem.adapter.BaseItemAdapter;
 import com.freelib.multiitem.adapter.holder.BaseViewHolder;

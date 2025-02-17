@@ -1,8 +1,10 @@
 package com.freelib.multiitem.adapter.holder;
 
-import android.support.annotation.NonNull;
+
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
 
 /**
  * Head Foot 的ViewHolderManager

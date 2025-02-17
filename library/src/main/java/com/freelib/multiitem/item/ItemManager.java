@@ -1,6 +1,8 @@
 package com.freelib.multiitem.item;
 
-import android.support.annotation.NonNull;
+
+
+import androidx.annotation.NonNull;
 
 import com.freelib.multiitem.adapter.holder.ViewHolderManager;
 

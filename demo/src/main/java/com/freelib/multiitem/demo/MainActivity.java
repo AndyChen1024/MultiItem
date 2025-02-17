@@ -1,8 +1,8 @@
 package com.freelib.multiitem.demo;
 
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.freelib.multiitem.adapter.BaseItemAdapter;
 import com.freelib.multiitem.adapter.holder.BaseViewHolder;

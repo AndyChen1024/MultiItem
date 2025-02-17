@@ -1,6 +1,8 @@
 package com.freelib.multiitem.demo.state;
 
-import android.databinding.ViewDataBinding;
+
+
+import androidx.databinding.ViewDataBinding;
 
 import com.freelib.multiitem.demo.BR;
 import com.freelib.multiitem.demo.R;

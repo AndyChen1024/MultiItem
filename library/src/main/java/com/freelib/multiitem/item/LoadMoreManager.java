@@ -1,8 +1,10 @@
 package com.freelib.multiitem.item;
 
-import android.support.annotation.NonNull;
+
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
 
 import com.freelib.multiitem.adapter.BaseItemAdapter;
 import com.freelib.multiitem.adapter.holder.BaseViewHolder;

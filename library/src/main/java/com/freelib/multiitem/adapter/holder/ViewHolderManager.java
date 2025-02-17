@@ -1,14 +1,14 @@
 package com.freelib.multiitem.adapter.holder;
 
-import android.databinding.DataBindingUtil;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView.ViewHolder;
-import android.support.v7.widget.StaggeredGridLayoutManager;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.LayoutRes;
+import androidx.annotation.NonNull;
+import androidx.databinding.DataBindingUtil;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.freelib.multiitem.item.ItemData;
 
@@ -26,14 +26,14 @@ public abstract class ViewHolderManager<T, V extends BaseViewHolder> {
 
     /**
      * 创建ViewHolder
-     * {@link android.support.v7.widget.RecyclerView.Adapter#onCreateViewHolder}
+     * {@link androidx.recyclerview.widget.RecyclerView.Adapter#onCreateViewHolder}
      */
     @NonNull
     public abstract V onCreateViewHolder(@NonNull ViewGroup parent);
 
     /**
      * 为ViewHolder绑定数据
-     * {@link android.support.v7.widget.RecyclerView.Adapter#onBindViewHolder}
+     * {@link androidx.recyclerview.widget.RecyclerView.Adapter#onBindViewHolder}
      *
      * @param t 数据源
      */
@@ -68,7 +68,7 @@ public abstract class ViewHolderManager<T, V extends BaseViewHolder> {
     }
 
 
-    public final int getPosition(@NonNull final ViewHolder holder) {
+    public final int getPosition(@NonNull final RecyclerView.ViewHolder holder) {
         return holder.getAdapterPosition();
     }
 
@@ -106,7 +106,7 @@ public abstract class ViewHolderManager<T, V extends BaseViewHolder> {
      *
      * @return itemView
      */
-    protected <T extends View> T getView(ViewHolder viewHolder, int id) {
+    protected <T extends View> T getView(RecyclerView.ViewHolder viewHolder, int id) {
         return getView(viewHolder.itemView, id);
     }
 

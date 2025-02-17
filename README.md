@@ -272,14 +272,14 @@ ViewHolder管理源码类为`ViewHolderManager`，使用者会首先注册数据
 ``` java
 /**
  * 创建ViewHolder
- * {@link android.support.v7.widget.RecyclerView.Adapter#onCreateViewHolder}
+ * {@link androidx.recyclerview.widget.RecyclerView.Adapter#onCreateViewHolder}
  */
 @NonNull
 public abstract V onCreateViewHolder(@NonNull ViewGroup parent);
 
 /**
  * 为ViewHolder绑定数据
- * {@link android.support.v7.widget.RecyclerView.Adapter#onBindViewHolder}
+ * {@link androidx.recyclerview.widget.RecyclerView.Adapter#onBindViewHolder}
  *
  * @param t 数据源
  */

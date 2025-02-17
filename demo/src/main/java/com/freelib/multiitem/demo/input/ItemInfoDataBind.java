@@ -1,7 +1,9 @@
 package com.freelib.multiitem.demo.input;
 
-import android.databinding.ViewDataBinding;
+
 import android.text.TextUtils;
+
+import androidx.databinding.ViewDataBinding;
 
 import com.freelib.multiitem.demo.BR;
 import com.freelib.multiitem.demo.R;

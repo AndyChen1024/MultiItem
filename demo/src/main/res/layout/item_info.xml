@@ -10,7 +10,7 @@
             type="com.freelib.multiitem.demo.bean.ItemInfo"/>
     </data>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/content_lay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,5 +54,5 @@
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/name_txt"
             />
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
